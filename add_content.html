@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABC Pvt. Ltd.</title>
+<link rel="stylesheet" type="text/css" href="signin.css">
+</head>
+<body>
+<span>
+        
+    </span>
+
+<body>
+  <?php 
+  session_start();
+ $username = $_GET['username'];
+ if($username != NULL)
+  echo "<span><p>".$username."</p></span>";
+    echo "<div id='header'>";
+    echo "<span><img src='user.png' title='User'>";
+    echo "</div>";
+    echo "<center>";
+                echo "<div id='form'>";
+                echo "<form action='http://localhost/add_content.php?username=$username' method='post'>";
+                echo "<p>";
+                ?>
+                    <label for="content">Content:</label>
+                    <input type="text" name="content" id="content" class="content" height="700px" width="350px">
+                </p>
+                 <input type="submit" value="Publish">
+            </form>
+        </div>
+    </center>
+</body>
+</html>

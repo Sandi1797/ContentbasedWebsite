@@ -1,0 +1,254 @@
+img {
+	height: 100px;
+	width: 300px;
+}
+button {
+	background-color: rgb(43,51,169);
+	font-family: "Times New Roman";
+	font-size: 15pt;
+	border-radius: 8px;
+	height: 40px;
+	width: 130px;
+	color: white;
+	float: right;
+	position: relative;
+}
+button:hover {
+	background-color: rgb(162,23,231);
+	font-family: "Times New Roman";
+	font-size: 15pt;
+	border-radius: 8px;
+	height: 40px;
+	width: 130px;
+	color: white;
+	float: right;
+	position: relative;
+}
+a 
+{
+	background-color: #8F8CF7;
+	height: 30px;
+	width: 100px;
+	font-family: "Times New Roman";
+	font-size: 15pt;
+	color: #ffffff;
+
+} 
+a:hover
+ {
+	 background-color: #5F68E5;
+	 height: 30px;
+	 width: 100px;
+	 font-family: "Times New Roman";
+	 font-size: 15pt;
+	 color: #ffffff;
+ } 
+ #taskbar
+{
+	background-color: #1D248D;
+	width: 100%;
+	height: 40px;
+	border-radius: 4px;	
+
+}
+
+li
+{
+	display: inline;
+	float: left;
+	padding: 4px;
+
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    height: 20px;
+    font-size: 13pt;
+    opacity: 1.0;   
+    background-color: #1D248D;
+}
+
+li.dropbtn {
+
+	background-color: #8F8CF7;
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    height: 30px;
+    font-size: 13pt;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background-color: red;
+    height: 30px;
+    font-size: 18pt;
+    opacity: 1.0;
+}
+li.dropdown:hover .dropbtn
+{
+	background-color: #4651DE;
+    height: 30px;
+    font-size: 13pt;
+    border-radius: 5px;
+}
+
+li.dropdown {
+	background-color: #1D248D;
+    display: inline-block;
+    font-size: 15pt;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5F68E5 ;
+    height: 15px;
+    min-width: 160px;
+    border-radius: 5px;
+    font-size: 13pt;
+    color: black;
+}
+.dropdown-content a {
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 10pt;
+    height: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.dropdown-content a:hover {background-color: #4651DE; font-size: 10pt; height: 30px;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    font-size: 10pt;
+    color: white;
+}
+#footer
+{
+	background-color: #4651DE;
+	width: 100%;
+	height: 35px;	
+
+}
+summary {
+	text-align: center;
+}
+address {
+	text-align: center;
+}
+iframe {
+	height: 245px;
+	width: 290px;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+
+}
+td h3 {
+	background-color: #4651DE;
+	color: white;
+	width: 310px;
+	height: 20px;
+	border-radius: 4px;
+	padding: 4px;
+}
+td h3 ol{
+	color: #3A46D6;
+	background-color: white;
+	border-radius: 8px;
+	text-align: left;
+	font-size: 10pt;
+	font-family: "Times New Roman";
+}
+
+td {
+	border-radius: 5px;
+	height:210px;
+	width:340px;
+}
+td img {
+	height: 90px;
+	width: 250px;
+}
+td:hover {
+	border-radius: 5px;
+	height:210px;
+	width:340px;
+	background-color: #4651DE;
+	padding: 8px;
+}
+td a {
+
+	background-color: #A825EE;
+	font-family: "Times New Roman";
+	font-size: 15pt;
+	color: white;
+	text-align: center;
+	height: 70px;
+	width: 100%;
+	padding: 5px;
+}
+td a:hover {
+
+	background-color: #460F6E;
+	font-family: "Times New Roman";
+	font-size: 15pt;
+	color: white;
+	text-align: center;
+	height: 70px;
+	width: 100%;
+	padding: 5px;
+}
+ul {
+	color: #3A46D6;
+	background-color: white;
+	border-radius: 8px;
+	text-align: left;
+	font-size: 14pt;
+	font-family: "Times New Roman";
+}
+marquee img {
+
+	height: 400px;
+	text-align: center;
+	width: 100%;
+
+
+}
+marquee {
+	color: white;
+}
+h3 {
+
+	background-color: #1D248D;
+	color: white;
+	width: 100%;
+	height: 20px;
+	border-radius: 4px;
+	padding: 4px;
+
+}
+form {
+	position: relative;
+	float: right;
+}
+body {
+	background-color: #8F8CF7;
+	color: white;
+}
+.w3-content img {
+	height : 400px;
+	width : 100%;
+	border-radius: 4px;
+}
